@@ -10,7 +10,8 @@ import {
 import {
   faCircle,
   faHome,
-  faSpinner
+  faSpinner,
+  faCircleNotch
 } from '@fortawesome/free-solid-svg-icons';
 import '../static/styles.scss';
 
@@ -20,7 +21,8 @@ Bluebird.config({ warnings: { wForgottenReturn: false } });
 library.add(
   faCircle,
   faHome,
-  faSpinner
+  faSpinner,
+  faCircleNotch
 );
 
 export function configure(aurelia: Aurelia) {

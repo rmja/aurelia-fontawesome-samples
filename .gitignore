@@ -23,6 +23,9 @@ Thumbs.db
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.backup
+.undo
+tags*
 
 # Dependencies
 node_modules
